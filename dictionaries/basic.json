@@ -1,0 +1,23 @@
+[
+  [{
+    "word": "bonjour",
+    "definitions": [
+      "hi",
+      "hello",
+      "good day"
+    ]
+  }, 0],
+  [{
+    "word": "merci",
+    "definitions": [
+      "thank you"
+    ]
+  }, 0],
+  [{
+    "word": "faire",
+    "definitions": [
+      "to do",
+      "to make"
+    ]
+  }, 0]
+]
