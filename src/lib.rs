@@ -9,6 +9,9 @@ use std::{
 
 use rand::seq::{IndexedRandom, SliceRandom};
 use serde::{Deserialize, Serialize};
+use unicode_width::UnicodeWidthStr;
+
+use crate::VocabError::BasicError;
 
 pub enum VocabError {
     SerdeJson(serde_json::Error),
@@ -56,19 +59,19 @@ where
     fn unique_key(&self) -> String;
     fn get_definitions(&self) -> Vec<&N>;
     fn get_word(&self) -> &F;
-    fn definitions_match(a: &N, b: &N) -> bool;
+    fn definitions_match(guess: &N, definition: &N) -> bool;
     fn words_match(a: &F, b: &F) -> bool;
     fn matches_word(&self, cmp: &F) -> bool {
         Self::words_match(self.get_word(), cmp)
     }
-    fn matches_definition(&self, cmp: &N) -> bool {
+    fn matches_definition(&self, guess: &N) -> bool {
         self.get_definitions()
             .iter()
-            .any(|f| Self::definitions_match(f, cmp))
+            .any(|f| Self::definitions_match(guess, f))
     }
     fn with_definitions(&self, extra_indent: usize) -> String {
-        let joined = self.get_word().to_string();
-        let indent = " ".repeat(joined.chars().count().saturating_add(extra_indent));
+        let joined = self.to_string();
+        let indent = " ".repeat(joined.width().saturating_add(extra_indent));
 
         self.get_definitions()
             .iter()
@@ -118,63 +121,183 @@ where
         })
     }
 
+    fn find_all_words_that_match(&self, guess: &N) -> Vec<&Q> {
+        self.data
+            .iter()
+            .filter_map(|(w, _)| w.matches_definition(guess).then_some(w))
+            .collect()
+    }
+
     pub fn run_drill(&mut self, foreign_to_native: bool) -> Result<(), VocabError> {
+        let mut completed = 0;
+        let mut streak = 0;
+
         let mut rng = rand::rng();
+        let mut queue: VecDeque<usize> = {
+            let mut ordered = (0usize..self.data.len()).collect::<Vec<usize>>();
+            ordered.shuffle(&mut rng);
 
-        let mut queue: VecDeque<&(Q, f32)> = {
-            let mut q: Vec<&(Q, f32)> = self.data.iter().collect();
-            q.shuffle(&mut rng);
-
-            q.iter().copied().collect()
+            ordered.into_iter().collect()
         };
 
-        while let Some(n) = queue.pop_back() {
-            clear_console()?;
-            let (word, mastery) = n;
-
-            let prompt = if foreign_to_native {
-                word.get_word().to_string()
+        let mut generate_prompt = |word: &Q| {
+            if foreign_to_native {
+                (word.to_string(), word.with_definitions(0))
             } else {
-                word.get_definitions()
+                let d = word
+                    .get_definitions()
                     .choose(&mut rng)
-                    .map_or(String::new(), |d| d.to_string())
+                    .map_or(String::new(), ToString::to_string);
+
+                (d.clone(), format!("{d} - {}", word.get_word()))
+            }
+        };
+        let guess_matches =
+            |guess: &str, word: &Q, data: &Vec<(Q, f32)>| -> Result<bool, VocabError> {
+                Ok(if foreign_to_native {
+                    // see if what you typed matches any definition of `word`
+
+                    let native = guess
+                        .parse::<N>()
+                        .map_err(|_| VocabError::ParseError(guess.to_string()))?;
+
+                    word.matches_definition(&native)
+                } else {
+                    // see if what you typed has the definition of `word`
+
+                    let foreign = guess
+                        .parse::<F>()
+                        .map_err(|_| VocabError::ParseError(guess.to_string()))?;
+
+                    data.iter().any(|(w, _)| {
+                        w.matches_word(&foreign)
+                            && word
+                                .get_definitions()
+                                .iter()
+                                .any(|d| w.matches_definition(d))
+                    })
+                })
             };
 
-            print!("{} - ", prompt);
+        while let Some(index) = queue.pop_back() {
+            let mut user_override = false;
+
+            clear_console()?;
+            let (word, mastery) = self
+                .data
+                .get(index)
+                .ok_or_else(|| BasicError("Index Error".to_string()))?;
+
+            let (prompt, correct_display) = generate_prompt(word);
+
+            println!(
+                "{completed} {}",
+                if streak > 0 {
+                    format!("streak {streak}")
+                } else {
+                    String::new()
+                }
+            );
+
+            print!("{prompt} - ");
             io::stdout().flush()?;
 
             let guess = input()?;
 
-            let matches = if foreign_to_native {
-                // see if what you typed matches any definition of `word`
+            if guess == "q" {
+                break;
+            }
 
-                let native = guess
-                    .parse::<N>()
-                    .map_err(|_| VocabError::ParseError(guess.clone()))?;
+            let matches: bool = guess_matches(&guess, word, &self.data)?;
 
-                word.matches_definition(&native)
-            } else {
-                // see if what you typed has the definition of `word`
+            loop {
+                let got_right = matches || user_override;
 
-                let foreign = guess
-                    .parse::<F>()
-                    .map_err(|_| VocabError::ParseError(guess.clone()))?;
-
-                self.data.iter().any(|(w, _)| {
-                    w.matches_word(&foreign)
-                        && word
-                            .get_definitions()
-                            .iter()
-                            .any(|d| w.matches_definition(d))
+                let delta_m = (if got_right {
+                    mastery.mul_add(0.05, 5.0)
+                } else {
+                    -mastery.mul_add(0.1, 10.0)
                 })
-            };
+                .clamp(-*mastery, 100.0 - *mastery);
 
-            clear_console()?;
+                let deck_size = queue.len().max(1);
 
-            println!("{}", word.with_definitions(0));
-            println!("{}", if matches { "correct" } else { "incorrect" });
-            input()?;
-            queue.push_front(n);
+                let insert_at: usize = if got_right {
+                    // low mastery -> reappears in maybe 1/10th of the deck
+                    // high mastery -> reappears near a full deck length out (or beyond, if you want)
+                    let frac = (*mastery / 100.0).mul_add(1.4, 0.1); // ranges ~0.1 to ~1.5
+                    ((deck_size as f32) * frac).round() as usize
+                } else {
+                    (deck_size / 15).max(5)
+                };
+
+                let insert_at = insert_at.min(queue.len());
+
+                clear_console()?;
+                println!(
+                    "{} {}",
+                    completed + 1,
+                    if got_right {
+                        format!("streak {}", streak + 1)
+                    } else {
+                        String::new()
+                    }
+                );
+
+                println!("{correct_display}\n");
+                println!(
+                    "{} {:.2} ({:+.2})",
+                    match (matches, user_override) {
+                        (true, _) => "correct",
+                        (false, true) => "overriden",
+                        (false, false) => "incorrect",
+                    },
+                    mastery + delta_m,
+                    delta_m
+                );
+
+                if foreign_to_native && !got_right {
+                    let words = self.find_all_words_that_match(
+                        &guess
+                            .parse()
+                            .map_err(|_| VocabError::ParseError(guess.to_string()))?,
+                    );
+
+                    if !words.is_empty() {
+                        println!(
+                            "{guess} - {}",
+                            words
+                                .iter()
+                                .map(ToString::to_string)
+                                .collect::<Vec<_>>()
+                                .join(", ")
+                        );
+                    }
+                } else {
+                }
+
+                if input()?.as_str() == "o" {
+                    user_override = true;
+                    continue;
+                }
+
+                self.data
+                    .get_mut(index)
+                    .ok_or_else(|| BasicError("Index Error Write".to_string()))?
+                    .1 += delta_m;
+
+                self.save()?;
+                queue.insert(insert_at, index);
+                completed += 1;
+
+                if got_right {
+                    streak += 1;
+                } else {
+                    streak = 0;
+                }
+
+                break;
+            }
         }
 
         Ok(())

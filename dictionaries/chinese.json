@@ -1,0 +1,5463 @@
+[
+  [
+    {
+      "hanzi": "休息",
+      "definitions": [
+        "to rest"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xiu"
+        },
+        {
+          "tone": "Neutral",
+          "text": "xi",
+          "sandhi_from": "High"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "面包",
+      "definitions": [
+        "bread"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "mian"
+        },
+        {
+          "tone": "High",
+          "text": "bao"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "半",
+      "definitions": [
+        "half"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ban"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "明",
+      "definitions": [
+        "bright",
+        "next (in time words)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ming"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "酒",
+      "definitions": [
+        "wine, alcohol"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "有",
+      "definitions": [
+        "to have",
+        "there is/are"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "you"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "新年",
+      "definitions": [
+        "new year"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xin"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "杯",
+      "definitions": [
+        "measure word for cups of a drink",
+        "cup"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "bei"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "机场",
+      "definitions": [
+        "airport"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ji"
+        },
+        {
+          "tone": "Dropping",
+          "text": "chang"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "一月",
+      "definitions": [
+        "January (no sandhi: reading a number as a date/label keeps its original tone)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "零",
+      "definitions": [
+        "zero"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ling"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "口",
+      "definitions": [
+        "mouth",
+        "measure word for family members"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "kou"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "狗狗",
+      "definitions": [
+        "doggy (affectionate)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "gou"
+        },
+        {
+          "tone": "Neutral",
+          "text": "gou",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "怎么",
+      "definitions": [
+        "how (+ verb)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zen"
+        },
+        {
+          "tone": "Neutral",
+          "text": "me"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "儿子",
+      "definitions": [
+        "son"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "er"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "医院",
+      "definitions": [
+        "hospital"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yuan"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "他",
+      "definitions": [
+        "he, him"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ta"
+        }
+      ]
+    },
+    62.88946
+  ],
+  [
+    {
+      "hanzi": "情",
+      "definitions": [
+        "love, feeling, affection"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qing"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "早上",
+      "definitions": [
+        "early morning"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zao"
+        },
+        {
+          "tone": "Falling",
+          "text": "shang"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "吃饭",
+      "definitions": [
+        "to have a meal"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "chi"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "衣服",
+      "definitions": [
+        "clothes"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "Neutral",
+          "text": "fu",
+          "sandhi_from": "Rising"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "起",
+      "definitions": [
+        "to rise",
+        "to get up"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "qi"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "关系",
+      "definitions": [
+        "relationship, connection",
+        "a useful social connection (extended sense)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "guan"
+        },
+        {
+          "tone": "Neutral",
+          "text": "xi",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "生日",
+      "definitions": [
+        "birthday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "sheng"
+        },
+        {
+          "tone": "Falling",
+          "text": "ri"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "饭店",
+      "definitions": [
+        "restaurant",
+        "hotel"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "fan"
+        },
+        {
+          "tone": "Falling",
+          "text": "dian"
+        }
+      ]
+    },
+    32.97099
+  ],
+  [
+    {
+      "hanzi": "去",
+      "definitions": [
+        "to go"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "qu"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "芒果",
+      "definitions": [
+        "mango"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mang"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guo"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "酷",
+      "definitions": [
+        "cool"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ku"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "一件",
+      "definitions": [
+        "one (measure word for clothing)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Falling",
+          "text": "jian"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "后年",
+      "definitions": [
+        "two years from now",
+        "the year after next year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "hou"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "小学",
+      "definitions": [
+        "elementary school"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "xiao"
+        },
+        {
+          "tone": "Rising",
+          "text": "xue"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "懒",
+      "definitions": [
+        "lazy"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "lan"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "昨天",
+      "definitions": [
+        "yesterday"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "zuo"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "漂亮",
+      "definitions": [
+        "pretty"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "piao"
+        },
+        {
+          "tone": "Neutral",
+          "text": "liang",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "六",
+      "definitions": [
+        "six"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "liu"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "英国",
+      "definitions": [
+        "UK"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ying"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "中",
+      "definitions": [
+        "middle"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "多长",
+      "definitions": [
+        "how long"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Rising",
+          "text": "chang"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "一号",
+      "definitions": [
+        "the 1st (day of the month)",
+        "No. 1 (same labeling exception, no sandhi)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "Falling",
+          "text": "hao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "语",
+      "definitions": [
+        "language"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "yu"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "高兴",
+      "definitions": [
+        "happy"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "gao"
+        },
+        {
+          "tone": "Falling",
+          "text": "xing"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "鸡",
+      "definitions": [
+        "chicken"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ji"
+        }
+      ]
+    },
+    14.86534
+  ],
+  [
+    {
+      "hanzi": "千",
+      "definitions": [
+        "thousand"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "qian"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "圣诞节",
+      "definitions": [
+        "Christmas"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "sheng"
+        },
+        {
+          "tone": "Falling",
+          "text": "dan"
+        },
+        {
+          "tone": "Rising",
+          "text": "jie"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "早",
+      "definitions": [
+        "early"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "怎么样",
+      "definitions": [
+        "how is it, how about"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zen"
+        },
+        {
+          "tone": "Neutral",
+          "text": "me"
+        },
+        {
+          "tone": "Falling",
+          "text": "yang"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "给",
+      "definitions": [
+        "for (casual)",
+        "to give"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "gei"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "钱",
+      "definitions": [
+        "money"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qian"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "上午",
+      "definitions": [
+        "late morning"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shang"
+        },
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "下午",
+      "definitions": [
+        "afternoon"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "xia"
+        },
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "房子",
+      "definitions": [
+        "house"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "fang"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "久",
+      "definitions": [
+        "a long time"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "多热",
+      "definitions": [
+        "how hot"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Falling",
+          "text": "re"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "苹果",
+      "definitions": [
+        "apple"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guo"
+        }
+      ]
+    },
+    14.86534
+  ],
+  [
+    {
+      "hanzi": "小时",
+      "definitions": [
+        "hour (time duration)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "xiao"
+        },
+        {
+          "tone": "Rising",
+          "text": "shi"
+        }
+      ]
+    },
+    14.865341
+  ],
+  [
+    {
+      "hanzi": "对",
+      "definitions": [
+        "correct, right"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dui"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "号",
+      "definitions": [
+        "number",
+        "day of the month"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "hao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "饭馆",
+      "definitions": [
+        "restaurant"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "fan"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guan"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "玩",
+      "definitions": [
+        "to play"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "wan"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "累",
+      "definitions": [
+        "tired"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "lei"
+        }
+      ]
+    },
+    9.395562
+  ],
+  [
+    {
+      "hanzi": "笔",
+      "definitions": [
+        "pen"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "bi"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "车",
+      "definitions": [
+        "car, vehicle"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "che"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "大",
+      "definitions": [
+        "big"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "da"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "课",
+      "definitions": [
+        "class, lesson"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "喝",
+      "definitions": [
+        "to drink"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "he"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "看",
+      "definitions": [
+        "to look",
+        "to read"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "kan"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "星期天",
+      "definitions": [
+        "Sunday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "和",
+      "definitions": [
+        "and (connects nouns)",
+        "with"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "he"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "亿",
+      "definitions": [
+        "hundred million"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi"
+        }
+      ]
+    },
+    9.395562
+  ],
+  [
+    {
+      "hanzi": "日本",
+      "definitions": [
+        "Japan"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ri"
+        },
+        {
+          "tone": "Dropping",
+          "text": "ben"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "国",
+      "definitions": [
+        "country"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "加拿大",
+      "definitions": [
+        "Canada"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jia"
+        },
+        {
+          "tone": "Rising",
+          "text": "na"
+        },
+        {
+          "tone": "Falling",
+          "text": "da"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "月",
+      "definitions": [
+        "month"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "客人",
+      "definitions": [
+        "guest, customer"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ke"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "家",
+      "definitions": [
+        "family, home"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jia"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "多",
+      "definitions": [
+        "how (question word for degree)",
+        "many"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "泰国",
+      "definitions": [
+        "Thailand"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "tai"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "认识",
+      "definitions": [
+        "to know (a person)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ren"
+        },
+        {
+          "tone": "Neutral",
+          "text": "shi",
+          "sandhi_from": "Rising"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "您",
+      "definitions": [
+        "you (polite)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nin"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "火车站",
+      "definitions": [
+        "railway station"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "huo"
+        },
+        {
+          "tone": "High",
+          "text": "che"
+        },
+        {
+          "tone": "Falling",
+          "text": "zhan"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "你好",
+      "definitions": [
+        "hello"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ni",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "不好意思",
+      "definitions": [
+        "sorry, excuse me (casual; no sandhi here since hao3 isn't 4th tone)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "bu"
+        },
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        },
+        {
+          "tone": "Falling",
+          "text": "yi"
+        },
+        {
+          "tone": "Neutral",
+          "text": "si"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "你",
+      "definitions": [
+        "you"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "ni"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "多高",
+      "definitions": [
+        "how tall"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "High",
+          "text": "gao"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "千米",
+      "definitions": [
+        "kilometer"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "qian"
+        },
+        {
+          "tone": "Dropping",
+          "text": "mi"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "圣",
+      "definitions": [
+        "saint"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "sheng"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "气",
+      "definitions": [
+        "air",
+        "manner of speaking to people"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "qi"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "谁",
+      "definitions": [
+        "who, whom (spoken register; read shuéi in formal/written register)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shei"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "十",
+      "definitions": [
+        "ten"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "椅子",
+      "definitions": [
+        "chair"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "yi"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "一岁",
+      "definitions": [
+        "one year old"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Falling",
+          "text": "sui"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "站",
+      "definitions": [
+        "to stand",
+        "station, stop"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zhan"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "去年",
+      "definitions": [
+        "last year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "qu"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "分钟",
+      "definitions": [
+        "minute",
+        "minute (time duration)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "fen"
+        },
+        {
+          "tone": "High",
+          "text": "zhong"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "睡觉",
+      "definitions": [
+        "to go to sleep"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shui"
+        },
+        {
+          "tone": "Falling",
+          "text": "jiao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "见",
+      "definitions": [
+        "to see, to meet (also used as an informal goodbye)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "jian"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "一般",
+      "definitions": [
+        "so-so, average, general"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "High",
+          "text": "ban"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "那",
+      "definitions": [
+        "that"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "na"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "第一",
+      "definitions": [
+        "1st, first (ordinal numbers also skip tone sandhi)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "di"
+        },
+        {
+          "tone": "High",
+          "text": "yi"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "三",
+      "definitions": [
+        "three"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "san"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "海",
+      "definitions": [
+        "sea"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "hai"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "离",
+      "definitions": [
+        "away from, from"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "li"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "酒吧",
+      "definitions": [
+        "bar"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        },
+        {
+          "tone": "High",
+          "text": "ba"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "火车",
+      "definitions": [
+        "train"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "huo"
+        },
+        {
+          "tone": "High",
+          "text": "che"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "买",
+      "definitions": [
+        "to buy"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mai"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "客",
+      "definitions": [
+        "guest"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    9.395562
+  ],
+  [
+    {
+      "hanzi": "本子",
+      "definitions": [
+        "notebook"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "ben"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "学习",
+      "definitions": [
+        "to study, to learn"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "xue"
+        },
+        {
+          "tone": "Rising",
+          "text": "xi"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "多大",
+      "definitions": [
+        "how big",
+        "how old"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Falling",
+          "text": "da"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "一杯",
+      "definitions": [
+        "a cup of"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "High",
+          "text": "bei"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "不",
+      "definitions": [
+        "not, no"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "bu"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "约会",
+      "definitions": [
+        "to date",
+        "a date"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yue"
+        },
+        {
+          "tone": "Falling",
+          "text": "hui"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "米饭",
+      "definitions": [
+        "rice (cooked)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mi"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "狗",
+      "definitions": [
+        "dog"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "gou"
+        }
+      ]
+    },
+    55.13282
+  ],
+  [
+    {
+      "hanzi": "要",
+      "definitions": [
+        "to need",
+        "to want",
+        "will take (time)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yao"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "多远",
+      "definitions": [
+        "how far"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Dropping",
+          "text": "yuan"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "四",
+      "definitions": [
+        "four"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "si"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "等",
+      "definitions": [
+        "to wait for"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "deng"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "上课",
+      "definitions": [
+        "to have class"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shang"
+        },
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    26.639038
+  ],
+  [
+    {
+      "hanzi": "无",
+      "definitions": [
+        "nothing (contrast with 五 wu3 'five')"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "wu"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "游戏",
+      "definitions": [
+        "game"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "you"
+        },
+        {
+          "tone": "Falling",
+          "text": "xi"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "后天",
+      "definitions": [
+        "the day after tomorrow"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "hou"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "九",
+      "definitions": [
+        "nine"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        }
+      ]
+    },
+    26.639038
+  ],
+  [
+    {
+      "hanzi": "牛奶",
+      "definitions": [
+        "milk"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "niu"
+        },
+        {
+          "tone": "Dropping",
+          "text": "nai"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "国家",
+      "definitions": [
+        "country, nation"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "guo"
+        },
+        {
+          "tone": "High",
+          "text": "jia"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "电脑",
+      "definitions": [
+        "computer"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        },
+        {
+          "tone": "Dropping",
+          "text": "nao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "意思",
+      "definitions": [
+        "meaning"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi"
+        },
+        {
+          "tone": "Neutral",
+          "text": "si",
+          "sandhi_from": "High"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "工作",
+      "definitions": [
+        "job",
+        "to work"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "gong"
+        },
+        {
+          "tone": "Falling",
+          "text": "zuo"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "一些",
+      "definitions": [
+        "some"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "High",
+          "text": "xie"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "明天",
+      "definitions": [
+        "tomorrow"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ming"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "一年",
+      "definitions": [
+        "one year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "个",
+      "definitions": [
+        "general measure word"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ge"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "一起",
+      "definitions": [
+        "together"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Dropping",
+          "text": "qi"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "节",
+      "definitions": [
+        "festival"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "jie"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "日",
+      "definitions": [
+        "day (formal)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ri"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "万",
+      "definitions": [
+        "ten thousand"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "wan"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "电影院",
+      "definitions": [
+        "cinema"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        },
+        {
+          "tone": "Dropping",
+          "text": "ying"
+        },
+        {
+          "tone": "Falling",
+          "text": "yuan"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "每",
+      "definitions": [
+        "every, each, per"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mei"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "问题",
+      "definitions": [
+        "question"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "wen"
+        },
+        {
+          "tone": "Rising",
+          "text": "ti"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "多少",
+      "definitions": [
+        "how many/much (usually more than 10)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Dropping",
+          "text": "shao"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "时候",
+      "definitions": [
+        "moment, time"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        },
+        {
+          "tone": "Falling",
+          "text": "hou"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "一千",
+      "definitions": [
+        "one thousand"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "High",
+          "text": "qian"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "前年",
+      "definitions": [
+        "two years ago",
+        "the year before last year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qian"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "现在",
+      "definitions": [
+        "now"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "xian"
+        },
+        {
+          "tone": "Falling",
+          "text": "zai"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "做饭",
+      "definitions": [
+        "to cook, to make food"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zuo"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    19.673891
+  ],
+  [
+    {
+      "hanzi": "叫",
+      "definitions": [
+        "to be called"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "jiao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "小说",
+      "definitions": [
+        "novel"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "xiao"
+        },
+        {
+          "tone": "High",
+          "text": "shuo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "多久",
+      "definitions": [
+        "how long (casual)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "duo"
+        },
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "一共",
+      "definitions": [
+        "in total, altogether"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Falling",
+          "text": "gong"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "医生",
+      "definitions": [
+        "doctor"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "High",
+          "text": "sheng"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "不客气",
+      "definitions": [
+        "you're welcome"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "bu",
+          "sandhi_from": "Falling"
+        },
+        {
+          "tone": "Falling",
+          "text": "ke"
+        },
+        {
+          "tone": "Falling",
+          "text": "qi"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "两",
+      "definitions": [
+        "two (used before a measure word)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "liang"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "公司",
+      "definitions": [
+        "company"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "gong"
+        },
+        {
+          "tone": "High",
+          "text": "si"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "车站",
+      "definitions": [
+        "bus stop"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "che"
+        },
+        {
+          "tone": "Falling",
+          "text": "zhan"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "时间",
+      "definitions": [
+        "time"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        },
+        {
+          "tone": "High",
+          "text": "jian"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "这",
+      "definitions": [
+        "this"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zhe"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "哥哥",
+      "definitions": [
+        "older brother"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ge"
+        },
+        {
+          "tone": "Neutral",
+          "text": "ge",
+          "sandhi_from": "High"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "米",
+      "definitions": [
+        "meter"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mi"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "好吃",
+      "definitions": [
+        "tasty, delicious"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        },
+        {
+          "tone": "High",
+          "text": "chi"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "哪儿",
+      "definitions": [
+        "where"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "na"
+        },
+        {
+          "tone": "Neutral",
+          "text": "r"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "来",
+      "definitions": [
+        "to come"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "lai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "哪里",
+      "definitions": [
+        "where"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "na",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "li"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "是",
+      "definitions": [
+        "to be",
+        "am/is/are"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shi"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "生",
+      "definitions": [
+        "to produce",
+        "to be born"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "sheng"
+        }
+      ]
+    },
+    19.673891
+  ],
+  [
+    {
+      "hanzi": "火",
+      "definitions": [
+        "fire"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "huo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "晚饭",
+      "definitions": [
+        "dinner"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wan"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    14.86534
+  ],
+  [
+    {
+      "hanzi": "周末",
+      "definitions": [
+        "weekend"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhou"
+        },
+        {
+          "tone": "Falling",
+          "text": "mo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "美国",
+      "definitions": [
+        "USA"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mei"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "早饭",
+      "definitions": [
+        "breakfast"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zao"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "上",
+      "definitions": [
+        "on, above",
+        "to go up",
+        "previous, last",
+        "to study/work at a fixed time and place"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shang"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "为",
+      "definitions": [
+        "for (formal)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "wei"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "客气",
+      "definitions": [
+        "polite"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ke"
+        },
+        {
+          "tone": "Falling",
+          "text": "qi"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "长",
+      "definitions": [
+        "long"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "chang"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "鸡肉",
+      "definitions": [
+        "chicken (meat)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ji"
+        },
+        {
+          "tone": "Falling",
+          "text": "rou"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "学",
+      "definitions": [
+        "school",
+        "to study"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "xue"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "妹妹",
+      "definitions": [
+        "younger sister"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "mei"
+        },
+        {
+          "tone": "Neutral",
+          "text": "mei",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "幺",
+      "definitions": [
+        "one (used reading digits individually, e.g. phone numbers)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yao"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "饭",
+      "definitions": [
+        "meal",
+        "cooked rice"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "女朋友",
+      "definitions": [
+        "girlfriend",
+        "Yuki"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nü"
+        },
+        {
+          "tone": "Rising",
+          "text": "peng"
+        },
+        {
+          "tone": "Neutral",
+          "text": "you",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "中国人",
+      "definitions": [
+        "Chinese person"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "下",
+      "definitions": [
+        "under, down, below",
+        "next"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "xia"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "明年",
+      "definitions": [
+        "next year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ming"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "前天",
+      "definitions": [
+        "the day before yesterday"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qian"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "的",
+      "definitions": [
+        "possessive/modifying particle (’s)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Neutral",
+          "text": "de"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "晚上",
+      "definitions": [
+        "evening"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wan"
+        },
+        {
+          "tone": "Falling",
+          "text": "shang"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "庆",
+      "definitions": [
+        "to celebrate"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "qing"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "大学",
+      "definitions": [
+        "university"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "da"
+        },
+        {
+          "tone": "Rising",
+          "text": "xue"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "咖啡",
+      "definitions": [
+        "coffee"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ka"
+        },
+        {
+          "tone": "High",
+          "text": "fei"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "午饭",
+      "definitions": [
+        "lunch"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "知道",
+      "definitions": [
+        "to know (a fact)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhi"
+        },
+        {
+          "tone": "Falling",
+          "text": "dao"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "老师",
+      "definitions": [
+        "teacher"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "lao"
+        },
+        {
+          "tone": "High",
+          "text": "shi"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "做",
+      "definitions": [
+        "to do, to make"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zuo"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "一百",
+      "definitions": [
+        "one hundred"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Dropping",
+          "text": "bai"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "没有",
+      "definitions": [
+        "to not have",
+        "there isn't"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mei"
+        },
+        {
+          "tone": "Dropping",
+          "text": "you"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "前",
+      "definitions": [
+        "front",
+        "before"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qian"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "晚",
+      "definitions": [
+        "late"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wan"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "人",
+      "definitions": [
+        "person"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "一刻",
+      "definitions": [
+        "a quarter hour (15 minutes)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "天",
+      "definitions": [
+        "day (casual)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "辣",
+      "definitions": [
+        "spicy"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "la"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "八",
+      "definitions": [
+        "eight"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ba"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "在",
+      "definitions": [
+        "to be at/in",
+        "at, in (preposition)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zai"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "百",
+      "definitions": [
+        "hundred"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "bai"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "只",
+      "definitions": [
+        "measure word for small animals"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhi"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "中饭",
+      "definitions": [
+        "lunch"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Falling",
+          "text": "fan"
+        }
+      ]
+    },
+    14.86534
+  ],
+  [
+    {
+      "hanzi": "出",
+      "definitions": [
+        "to come out of, to exit"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "chu"
+        }
+      ]
+    },
+    9.395562
+  ],
+  [
+    {
+      "hanzi": "二",
+      "definitions": [
+        "two"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "er"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "法院",
+      "definitions": [
+        "court (law)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "fa"
+        },
+        {
+          "tone": "Falling",
+          "text": "yuan"
+        }
+      ]
+    },
+    3.378806
+  ],
+  [
+    {
+      "hanzi": "诞",
+      "definitions": [
+        "to be born"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dan"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "冷",
+      "definitions": [
+        "cold"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "leng"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "不对",
+      "definitions": [
+        "incorrect, that's wrong"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "bu",
+          "sandhi_from": "Falling"
+        },
+        {
+          "tone": "Falling",
+          "text": "dui"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "中文",
+      "definitions": [
+        "Chinese language",
+        "the chinese language"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Rising",
+          "text": "wen"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "店",
+      "definitions": [
+        "shop"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "姐姐",
+      "definitions": [
+        "older sister"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jie"
+        },
+        {
+          "tone": "Neutral",
+          "text": "jie",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "非常",
+      "definitions": [
+        "very, extremely"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "fei"
+        },
+        {
+          "tone": "Rising",
+          "text": "chang"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "你们",
+      "definitions": [
+        "you all (plural)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "ni"
+        },
+        {
+          "tone": "Neutral",
+          "text": "men"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "几",
+      "definitions": [
+        "how many (usually under 10)",
+        "several"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "ji"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "馆",
+      "definitions": [
+        "small indoor venue"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "guan"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "刻",
+      "definitions": [
+        "a quarter of an hour"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    32.97099
+  ],
+  [
+    {
+      "hanzi": "午",
+      "definitions": [
+        "noon"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "七",
+      "definitions": [
+        "seven"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "qi"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "茶",
+      "definitions": [
+        "tea"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "cha"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "桌子",
+      "definitions": [
+        "table"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhuo"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "星期日",
+      "definitions": [
+        "Sunday (formal)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Falling",
+          "text": "ri"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "每天",
+      "definitions": [
+        "every day"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "mei"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "五",
+      "definitions": [
+        "five"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "四川",
+      "definitions": [
+        "Sichuan"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "si"
+        },
+        {
+          "tone": "High",
+          "text": "chuan"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "元",
+      "definitions": [
+        "RMB currency unit"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yuan"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "超市",
+      "definitions": [
+        "supermarket"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "chao"
+        },
+        {
+          "tone": "Falling",
+          "text": "shi"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "上学",
+      "definitions": [
+        "to attend school"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shang"
+        },
+        {
+          "tone": "Rising",
+          "text": "xue"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "不太",
+      "definitions": [
+        "not very"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "bu",
+          "sandhi_from": "Falling"
+        },
+        {
+          "tone": "Falling",
+          "text": "tai"
+        }
+      ]
+    },
+    9.395562
+  ],
+  [
+    {
+      "hanzi": "对不起",
+      "definitions": [
+        "sorry (formal; no sandhi since qi3 isn't 4th tone either)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dui"
+        },
+        {
+          "tone": "Falling",
+          "text": "bu"
+        },
+        {
+          "tone": "Dropping",
+          "text": "qi"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "分",
+      "definitions": [
+        "minute"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "fen"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "第二",
+      "definitions": [
+        "2nd, second"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "di"
+        },
+        {
+          "tone": "Falling",
+          "text": "er"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "出生",
+      "definitions": [
+        "to be born"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "chu"
+        },
+        {
+          "tone": "High",
+          "text": "sheng"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "用",
+      "definitions": [
+        "to use"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yong"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "书",
+      "definitions": [
+        "book"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "shu"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "中学",
+      "definitions": [
+        "middle school"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Rising",
+          "text": "xue"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "布置",
+      "definitions": [
+        "to decorate, to arrange"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "bu"
+        },
+        {
+          "tone": "Falling",
+          "text": "zhi"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "情人节",
+      "definitions": [
+        "Valentine's Day"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qing"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        },
+        {
+          "tone": "Rising",
+          "text": "jie"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "到",
+      "definitions": [
+        "to, until"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dao"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "我们",
+      "definitions": [
+        "we, us"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wo"
+        },
+        {
+          "tone": "Neutral",
+          "text": "men"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "学生",
+      "definitions": [
+        "student"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "xue"
+        },
+        {
+          "tone": "High",
+          "text": "sheng"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "为什么",
+      "definitions": [
+        "why"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "wei"
+        },
+        {
+          "tone": "Rising",
+          "text": "shen"
+        },
+        {
+          "tone": "Neutral",
+          "text": "me"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "远",
+      "definitions": [
+        "far"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "yuan"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "太",
+      "definitions": [
+        "too, so (used in the tai4...le pattern)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "tai"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "电影",
+      "definitions": [
+        "movie"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        },
+        {
+          "tone": "Dropping",
+          "text": "ying"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "昨",
+      "definitions": [
+        "past (used in yesterday-related words)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "zuo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "没关系",
+      "definitions": [
+        "it's okay, never mind"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mei"
+        },
+        {
+          "tone": "High",
+          "text": "guan"
+        },
+        {
+          "tone": "Neutral",
+          "text": "xi",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "很好",
+      "definitions": [
+        "very good, fine (reply to 'how are you')"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "hen",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "忙",
+      "definitions": [
+        "busy"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mang"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "妈妈",
+      "definitions": [
+        "mom"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ma"
+        },
+        {
+          "tone": "Neutral",
+          "text": "ma",
+          "sandhi_from": "High"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "岁",
+      "definitions": [
+        "years old (for age)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "sui"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "真",
+      "definitions": [
+        "really, truly (modal adverb)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhen"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "一两",
+      "definitions": [
+        "one unit of 50 grams"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Dropping",
+          "text": "liang"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "朋友",
+      "definitions": [
+        "friend"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "peng"
+        },
+        {
+          "tone": "Neutral",
+          "text": "you",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "圣人",
+      "definitions": [
+        "saint (full word)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "sheng"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "今天",
+      "definitions": [
+        "today"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jin"
+        },
+        {
+          "tone": "High",
+          "text": "tian"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "老板",
+      "definitions": [
+        "boss"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "lao",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "ban"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "星期",
+      "definitions": [
+        "week"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "谢谢",
+      "definitions": [
+        "thank you"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "xie"
+        },
+        {
+          "tone": "Neutral",
+          "text": "xie",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "了",
+      "definitions": [
+        "particle marking completion or change of state"
+      ],
+      "pinyin": [
+        {
+          "tone": "Neutral",
+          "text": "le"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "运动",
+      "definitions": [
+        "to exercise"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "yun"
+        },
+        {
+          "tone": "Falling",
+          "text": "dong"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "猫",
+      "definitions": [
+        "cat"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "mao"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "起床",
+      "definitions": [
+        "to get up"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "qi"
+        },
+        {
+          "tone": "Rising",
+          "text": "chuang"
+        }
+      ]
+    },
+    14.865341
+  ],
+  [
+    {
+      "hanzi": "厕所",
+      "definitions": [
+        "toilet, washroom"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ce"
+        },
+        {
+          "tone": "Dropping",
+          "text": "suo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "本",
+      "definitions": [
+        "measure word for books"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "ben"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "没",
+      "definitions": [
+        "not (used with 有 to negate possession)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mei"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "什么",
+      "definitions": [
+        "what"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shen"
+        },
+        {
+          "tone": "Neutral",
+          "text": "me"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "菜",
+      "definitions": [
+        "food, dish"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "cai"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "学校",
+      "definitions": [
+        "school"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "xue"
+        },
+        {
+          "tone": "Falling",
+          "text": "xiao"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "高",
+      "definitions": [
+        "tall"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "gao"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "很",
+      "definitions": [
+        "very"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "hen"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "吗",
+      "definitions": [
+        "question particle for yes/no questions"
+      ],
+      "pinyin": [
+        {
+          "tone": "Neutral",
+          "text": "ma"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "中午",
+      "definitions": [
+        "noon"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "年",
+      "definitions": [
+        "year"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "上海",
+      "definitions": [
+        "Shanghai"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shang"
+        },
+        {
+          "tone": "Dropping",
+          "text": "hai"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "水",
+      "definitions": [
+        "water"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "shui"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "她",
+      "definitions": [
+        "she, her"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ta"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "想",
+      "definitions": [
+        "would like to",
+        "to think"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "xiang"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "新",
+      "definitions": [
+        "new"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xin"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "爸爸",
+      "definitions": [
+        "dad"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ba"
+        },
+        {
+          "tone": "Neutral",
+          "text": "ba",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "国庆节",
+      "definitions": [
+        "National Day"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "guo"
+        },
+        {
+          "tone": "Falling",
+          "text": "qing"
+        },
+        {
+          "tone": "Rising",
+          "text": "jie"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "法国",
+      "definitions": [
+        "France"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "fa"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "情人",
+      "definitions": [
+        "lover"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "qing"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    47.745544
+  ],
+  [
+    {
+      "hanzi": "名字",
+      "definitions": [
+        "name",
+        "first name"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ming"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "水果",
+      "definitions": [
+        "fruit"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shui",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guo"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "路",
+      "definitions": [
+        "road"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "lu"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "便宜",
+      "definitions": [
+        "cheap, inexpensive"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "pian"
+        },
+        {
+          "tone": "Neutral",
+          "text": "yi",
+          "sandhi_from": "Rising"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "第",
+      "definitions": [
+        "ordinal number prefix"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "di"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "喜欢",
+      "definitions": [
+        "to like",
+        "like"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "xi"
+        },
+        {
+          "tone": "High",
+          "text": "huan"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "后",
+      "definitions": [
+        "back, behind",
+        "after"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "hou"
+        }
+      ]
+    },
+    4.1862497
+  ],
+  [
+    {
+      "hanzi": "热",
+      "definitions": [
+        "hot"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "re"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "我",
+      "definitions": [
+        "I, me"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wo"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "中文课",
+      "definitions": [
+        "Chinese class"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Rising",
+          "text": "wen"
+        },
+        {
+          "tone": "Falling",
+          "text": "ke"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "一",
+      "definitions": [
+        "one"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "yi"
+        }
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "hanzi": "哪",
+      "definitions": [
+        "which"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "na"
+        }
+      ]
+    },
+    14.86534
+  ],
+  [
+    {
+      "hanzi": "日语",
+      "definitions": [
+        "Japanese (language)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ri"
+        },
+        {
+          "tone": "Dropping",
+          "text": "yu"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "聪明",
+      "definitions": [
+        "smart, clever"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "cong"
+        },
+        {
+          "tone": "Neutral",
+          "text": "ming",
+          "sandhi_from": "Rising"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "中国",
+      "definitions": [
+        "China",
+        "the country china"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhong"
+        },
+        {
+          "tone": "Rising",
+          "text": "guo"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "看书",
+      "definitions": [
+        "to read (books)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "kan"
+        },
+        {
+          "tone": "High",
+          "text": "shu"
+        }
+      ]
+    },
+    34.009563
+  ],
+  [
+    {
+      "hanzi": "好",
+      "definitions": [
+        "good",
+        "okay",
+        "well"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "天气",
+      "definitions": [
+        "weather"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "tian"
+        },
+        {
+          "tone": "Falling",
+          "text": "qi"
+        }
+      ]
+    },
+    20.608608
+  ],
+  [
+    {
+      "hanzi": "鸡蛋",
+      "definitions": [
+        "egg"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ji"
+        },
+        {
+          "tone": "Falling",
+          "text": "dan"
+        }
+      ]
+    },
+    40.71004
+  ],
+  [
+    {
+      "hanzi": "件",
+      "definitions": [
+        "measure word for clothes"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "jian"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "吃",
+      "definitions": [
+        "to eat"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "chi"
+        }
+      ]
+    },
+    62.88946
+  ],
+  [
+    {
+      "hanzi": "如果",
+      "definitions": [
+        "if"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ru"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guo"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "点",
+      "definitions": [
+        "o'clock",
+        "dot"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "dian"
+        }
+      ]
+    },
+    27.628157
+  ]
+]

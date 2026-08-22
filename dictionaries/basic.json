@@ -1,23 +1,32 @@
 [
-  [{
-    "word": "bonjour",
-    "definitions": [
-      "hi",
-      "hello",
-      "good day"
-    ]
-  }, 0],
-  [{
-    "word": "merci",
-    "definitions": [
-      "thank you"
-    ]
-  }, 0],
-  [{
-    "word": "faire",
-    "definitions": [
-      "to do",
-      "to make"
-    ]
-  }, 0]
+  [
+    {
+      "word": "bonjour",
+      "definitions": [
+        "hi",
+        "hello",
+        "good day"
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "word": "merci",
+      "definitions": [
+        "thank you"
+      ]
+    },
+    15.7625
+  ],
+  [
+    {
+      "word": "faire",
+      "definitions": [
+        "to do",
+        "to make"
+      ]
+    },
+    27.628157
+  ]
 ]
