@@ -36,7 +36,7 @@
         }
       ]
     },
-    20.608608
+    26.639038
   ],
   [
     {
@@ -51,7 +51,7 @@
         }
       ]
     },
-    5.0
+    10.25
   ],
   [
     {
@@ -67,7 +67,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -158,12 +158,229 @@
     {
       "hanzi": "一月",
       "definitions": [
-        "January (no sandhi: reading a number as a date/label keeps its original tone)"
+        "January"
       ],
       "pinyin": [
         {
           "tone": "High",
           "text": "yi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "二月",
+      "definitions": [
+        "February"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "er"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "三月",
+      "definitions": [
+        "March"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "san"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "四月",
+      "definitions": [
+        "April"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "si"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "五月",
+      "definitions": [
+        "May"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "六月",
+      "definitions": [
+        "June"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "liu"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "七月",
+      "definitions": [
+        "July"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    10.25
+  ],
+  [
+    {
+      "hanzi": "八月",
+      "definitions": [
+        "August"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ba"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "九月",
+      "definitions": [
+        "September"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiu"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "十月",
+      "definitions": [
+        "October"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "十一月",
+      "definitions": [
+        "November"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        },
+        {
+          "tone": "High",
+          "text": "yi"
+        },
+        {
+          "tone": "Falling",
+          "text": "yue"
+        }
+      ]
+    },
+    5.0
+  ],
+  [
+    {
+      "hanzi": "十二月",
+      "definitions": [
+        "December"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shi"
+        },
+        {
+          "tone": "Falling",
+          "text": "er"
         },
         {
           "tone": "Falling",
@@ -405,7 +622,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -459,7 +676,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -655,7 +872,7 @@
         }
       ]
     },
-    0.0
+    5.0
   ],
   [
     {
@@ -681,7 +898,7 @@
       "hanzi": "一号",
       "definitions": [
         "the 1st (day of the month)",
-        "No. 1 (same labeling exception, no sandhi)"
+        "No. 1"
       ],
       "pinyin": [
         {
@@ -1075,7 +1292,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -1135,7 +1352,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -1430,7 +1647,7 @@
     {
       "hanzi": "不好意思",
       "definitions": [
-        "sorry, excuse me (casual; no sandhi here since hao3 isn't 4th tone)"
+        "sorry, excuse me (casual)"
       ],
       "pinyin": [
         {
@@ -1541,7 +1758,7 @@
     {
       "hanzi": "谁",
       "definitions": [
-        "who, whom (spoken register; read shuéi in formal/written register)"
+        "who, whom"
       ],
       "pinyin": [
         {
@@ -1644,6 +1861,25 @@
   ],
   [
     {
+      "hanzi": "今年",
+      "definitions": [
+        "this year"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jin"
+        },
+        {
+          "tone": "Rising",
+          "text": "nian"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
       "hanzi": "分钟",
       "definitions": [
         "minute",
@@ -1735,7 +1971,7 @@
     {
       "hanzi": "第一",
       "definitions": [
-        "1st, first (ordinal numbers also skip tone sandhi)"
+        "1st, first"
       ],
       "pinyin": [
         {
@@ -1861,7 +2097,7 @@
         }
       ]
     },
-    9.395562
+    14.86534
   ],
   [
     {
@@ -1900,7 +2136,7 @@
         }
       ]
     },
-    20.608608
+    26.639038
   ],
   [
     {
@@ -2009,7 +2245,7 @@
         }
       ]
     },
-    55.13282
+    62.88946
   ],
   [
     {
@@ -2100,7 +2336,7 @@
     {
       "hanzi": "无",
       "definitions": [
-        "nothing (contrast with 五 wu3 'five')"
+        "nothing"
       ],
       "pinyin": [
         {
@@ -2239,7 +2475,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -2353,7 +2589,7 @@
         }
       ]
     },
-    10.25
+    5.0
   ],
   [
     {
@@ -2398,7 +2634,7 @@
         }
       ]
     },
-    5.0
+    0.0
   ],
   [
     {
@@ -2571,7 +2807,7 @@
         }
       ]
     },
-    19.673891
+    25.657585
   ],
   [
     {
@@ -2624,7 +2860,7 @@
         }
       ]
     },
-    34.009563
+    40.71004
   ],
   [
     {
@@ -2914,7 +3150,7 @@
         }
       ]
     },
-    19.673891
+    7.706502
   ],
   [
     {
@@ -3005,7 +3241,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -3164,8 +3400,7 @@
     {
       "hanzi": "女朋友",
       "definitions": [
-        "girlfriend",
-        "Yuki"
+        "girlfriend"
       ],
       "pinyin": [
         {
@@ -3241,7 +3476,7 @@
         }
       ]
     },
-    47.745544
+    32.97099
   ],
   [
     {
@@ -3266,7 +3501,7 @@
     {
       "hanzi": "的",
       "definitions": [
-        "possessive/modifying particle (’s)"
+        "possessive/modifying particle ('s)"
       ],
       "pinyin": [
         {
@@ -3275,7 +3510,7 @@
         }
       ]
     },
-    34.009563
+    40.71004
   ],
   [
     {
@@ -3740,8 +3975,7 @@
     {
       "hanzi": "中文",
       "definitions": [
-        "Chinese language",
-        "the chinese language"
+        "Chinese language"
       ],
       "pinyin": [
         {
@@ -3965,6 +4199,144 @@
   ],
   [
     {
+      "hanzi": "星期一",
+      "definitions": [
+        "Monday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "High",
+          "text": "yi"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "星期二",
+      "definitions": [
+        "Tuesday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Falling",
+          "text": "er"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "星期三",
+      "definitions": [
+        "Wednesday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "High",
+          "text": "san"
+        }
+      ]
+    },
+    27.628157
+  ],
+  [
+    {
+      "hanzi": "星期四",
+      "definitions": [
+        "Thursday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Falling",
+          "text": "si"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "星期五",
+      "definitions": [
+        "Friday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Dropping",
+          "text": "wu"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
+      "hanzi": "星期六",
+      "definitions": [
+        "Saturday"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xing"
+        },
+        {
+          "tone": "High",
+          "text": "qi"
+        },
+        {
+          "tone": "Falling",
+          "text": "liu"
+        }
+      ]
+    },
+    21.550625
+  ],
+  [
+    {
       "hanzi": "每天",
       "definitions": [
         "every day"
@@ -3980,7 +4352,7 @@
         }
       ]
     },
-    40.71004
+    47.745544
   ],
   [
     {
@@ -4014,7 +4386,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -4093,7 +4465,7 @@
     {
       "hanzi": "对不起",
       "definitions": [
-        "sorry (formal; no sandhi since qi3 isn't 4th tone either)"
+        "sorry (formal)"
       ],
       "pinyin": [
         {
@@ -4163,7 +4535,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -4193,7 +4565,7 @@
         }
       ]
     },
-    4.1862497
+    9.395562
   ],
   [
     {
@@ -4231,7 +4603,7 @@
         }
       ]
     },
-    10.25
+    15.7625
   ],
   [
     {
@@ -4351,7 +4723,7 @@
     {
       "hanzi": "太",
       "definitions": [
-        "too, so (used in the tai4...le pattern)"
+        "too, so"
       ],
       "pinyin": [
         {
@@ -4360,7 +4732,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -4385,7 +4757,7 @@
     {
       "hanzi": "昨",
       "definitions": [
-        "past (used in yesterday-related words)"
+        "past"
       ],
       "pinyin": [
         {
@@ -4418,13 +4790,13 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
       "hanzi": "很好",
       "definitions": [
-        "very good, fine (reply to 'how are you')"
+        "very good, fine"
       ],
       "pinyin": [
         {
@@ -4494,7 +4866,7 @@
     {
       "hanzi": "真",
       "definitions": [
-        "really, truly (modal adverb)"
+        "really, truly"
       ],
       "pinyin": [
         {
@@ -4503,7 +4875,7 @@
         }
       ]
     },
-    10.25
+    15.7625
   ],
   [
     {
@@ -4748,7 +5120,7 @@
     {
       "hanzi": "没",
       "definitions": [
-        "not (used with 有 to negate possession)"
+        "not"
       ],
       "pinyin": [
         {
@@ -4855,7 +5227,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -5192,7 +5564,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -5207,7 +5579,7 @@
         }
       ]
     },
-    15.7625
+    21.550625
   ],
   [
     {
@@ -5305,8 +5677,7 @@
     {
       "hanzi": "中国",
       "definitions": [
-        "China",
-        "the country china"
+        "China"
       ],
       "pinyin": [
         {
@@ -5355,7 +5726,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {

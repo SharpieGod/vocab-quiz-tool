@@ -260,7 +260,7 @@ where
                     let words = self.find_all_words_that_match(
                         &guess
                             .parse()
-                            .map_err(|_| VocabError::ParseError(guess.to_string()))?,
+                            .map_err(|_| VocabError::ParseError(guess.clone()))?,
                     );
 
                     if !words.is_empty() {
@@ -273,7 +273,7 @@ where
                                 .join(", ")
                         );
                     }
-                } else {
+                } else if !foreign_to_native && !got_right {
                 }
 
                 if input()?.as_str() == "o" {
