@@ -7,6 +7,7 @@ use std::{
     str::FromStr,
 };
 
+use colorize::AnsiColor;
 use rand::seq::{IndexedRandom, SliceRandom};
 use serde::{Deserialize, Serialize};
 use unicode_width::UnicodeWidthStr;
@@ -248,9 +249,9 @@ where
                 println!(
                     "{} {:.2} ({:+.2})",
                     match (matches, user_override) {
-                        (true, _) => "correct",
-                        (false, true) => "overriden",
-                        (false, false) => "incorrect",
+                        (true, _) => "correct".green(),
+                        (false, true) => "overriden".yellow(),
+                        (false, false) => "incorrect".red(),
                     },
                     mastery + delta_m,
                     delta_m
