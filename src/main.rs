@@ -7,7 +7,7 @@ use vocab_quiz_tool::{Dictionary, VocabError};
 fn main() -> Result<(), VocabError> {
     let mut d = Dictionary::<ChineseWord, English, Chinese>::new("dictionaries/chinese.json")?;
 
-    d.run_drill(true)?;
+    d.run_drill(false)?;
 
     Ok(())
 }

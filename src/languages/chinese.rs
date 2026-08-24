@@ -1,4 +1,11 @@
-use std::{fmt::Display, str::FromStr};
+use std::{
+    fmt::Display,
+    fs,
+    path::{Path, PathBuf},
+    process::{Command, Stdio},
+    str::FromStr,
+    sync::atomic::{AtomicU64, Ordering},
+};
 
 use serde::{Deserialize, Serialize};
 use strsim::normalized_levenshtein;
@@ -69,6 +76,142 @@ impl Quizzable<English, Chinese> for ChineseWord {
             / a.0.len() as f32
             >= 0.95
     }
+
+    fn play_audio(&self) {
+        play_chinese_audio(&self.hanzi);
+    }
+}
+
+/// Speaks `text` in the background: a natural neural voice if reachable, otherwise the
+/// local Windows SAPI voice as an offline fallback.
+fn play_chinese_audio(text: &str) {
+    let text = text.to_string();
+
+    let _ = std::thread::Builder::new().spawn(move || {
+        if speak_edge_neural(&text).is_none() {
+            speak_chinese_sapi(&text);
+        }
+    });
+}
+
+const AUDIO_CACHE_DIR: &str = "audio/chinese";
+
+/// Path of the cached mp3 for `hanzi`, e.g. `audio/chinese/休息.mp3`.
+fn cached_audio_path(hanzi: &str) -> PathBuf {
+    let safe_name: String = hanzi
+        .chars()
+        .map(|c| {
+            if matches!(c, '<' | '>' | ':' | '"' | '/' | '\\' | '|' | '?' | '*') {
+                '_'
+            } else {
+                c
+            }
+        })
+        .collect();
+
+    Path::new(AUDIO_CACHE_DIR).join(format!("{safe_name}.mp3"))
+}
+
+/// Tries to speak `text` with a neural Chinese voice via the (free, unofficial) Microsoft
+/// Edge "Read Aloud" service, using a local mp3 cache to skip the network on repeat plays.
+/// Returns `None` on any failure (e.g. no network and nothing cached yet) so the caller
+/// can fall back to a local voice; blocks the calling thread until playback finishes.
+fn speak_edge_neural(text: &str) -> Option<()> {
+    let path = cached_audio_path(text);
+
+    let audio_bytes = if let Ok(bytes) = fs::read(&path) {
+        bytes
+    } else {
+        let bytes = fetch_neural_audio(text)?;
+
+        if let Some(parent) = path.parent() {
+            let _ = fs::create_dir_all(parent);
+        }
+        let _ = fs::write(&path, &bytes);
+
+        bytes
+    };
+
+    play_mp3_bytes(&audio_bytes)
+}
+
+/// Synthesizes `text` via the Edge "Read Aloud" service and returns the raw mp3 bytes.
+fn fetch_neural_audio(text: &str) -> Option<Vec<u8>> {
+    use msedge_tts::{
+        tts::{SpeechConfig, client::connect},
+        voice::get_voices_list,
+    };
+
+    let voices = get_voices_list().ok()?;
+
+    let voice = voices
+        .iter()
+        .find(|v| v.locale.as_deref() == Some("zh-CN") && v.name.contains("Xiaoxiao"))
+        .or_else(|| voices.iter().find(|v| v.locale.as_deref() == Some("zh-CN")))?;
+
+    let config = SpeechConfig::from(voice);
+    let mut tts = connect().ok()?;
+    let audio = tts.synthesize(text, &config).ok()?;
+
+    Some(audio.audio_bytes)
+}
+
+fn play_mp3_bytes(bytes: &[u8]) -> Option<()> {
+    let mut handle = rodio::DeviceSinkBuilder::open_default_sink().ok()?;
+    handle.log_on_drop(false);
+    let player = rodio::Player::connect_new(&handle.mixer());
+    let decoder = rodio::decoder::Decoder::new(std::io::Cursor::new(bytes.to_vec())).ok()?;
+
+    player.append(decoder);
+    player.sleep_until_end();
+
+    Some(())
+}
+
+/// Speaks `text` using a zh-CN voice via Windows Speech (SAPI), in the background.
+///
+/// Shells out to PowerShell rather than talking to SAPI directly, since the OS-installed
+/// desktop voices (e.g. "Microsoft Huihui Desktop") are exposed there without extra deps.
+fn speak_chinese_sapi(text: &str) {
+    static SCRIPT_COUNTER: AtomicU64 = AtomicU64::new(0);
+
+    let escaped = text.replace('\'', "''");
+    let script = format!(
+        "Add-Type -AssemblyName System.Speech\n\
+         $s = New-Object System.Speech.Synthesis.SpeechSynthesizer\n\
+         $v = $s.GetInstalledVoices() | Where-Object {{ $_.VoiceInfo.Culture.Name -eq 'zh-CN' }} | Select-Object -First 1\n\
+         if ($v) {{ $s.SelectVoice($v.VoiceInfo.Name) }}\n\
+         $s.Speak('{escaped}')\n\
+         Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force\n"
+    );
+
+    let n = SCRIPT_COUNTER.fetch_add(1, Ordering::Relaxed);
+    let path = std::env::temp_dir().join(format!(
+        "vocab_quiz_tool_speak_{}_{n}.ps1",
+        std::process::id()
+    ));
+
+    // UTF-8 BOM so PowerShell reads the script (and the embedded hanzi) as UTF-8.
+    let mut bytes = vec![0xEF, 0xBB, 0xBF];
+    bytes.extend_from_slice(script.as_bytes());
+
+    if fs::write(&path, bytes).is_err() {
+        return;
+    }
+
+    let _ = Command::new("powershell")
+        .args([
+            "-NoProfile",
+            "-NonInteractive",
+            "-ExecutionPolicy",
+            "Bypass",
+            "-File",
+        ])
+        .arg(&path)
+        .stdin(Stdio::null())
+        .stdout(Stdio::null())
+        .stderr(Stdio::null())
+        .spawn();
 }
 
 #[derive(Clone, PartialEq, Eq, Serialize, Deserialize, Debug)]

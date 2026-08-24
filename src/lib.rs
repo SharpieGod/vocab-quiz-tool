@@ -70,6 +70,8 @@ where
             .iter()
             .any(|f| Self::definitions_match(guess, f))
     }
+    /// Plays a pronunciation of this word, if supported. Default is a no-op.
+    fn play_audio(&self) {}
     fn with_definitions(&self, extra_indent: usize) -> String {
         let joined = self.to_string();
         let indent = " ".repeat(joined.width().saturating_add(extra_indent));
@@ -203,7 +205,16 @@ where
             print!("{prompt} - ");
             io::stdout().flush()?;
 
+            if foreign_to_native {
+                word.play_audio();
+            }
+
             let guess = input()?;
+
+            if guess == "a" {
+                queue.push_back(index);
+                continue;
+            }
 
             if guess == "q" {
                 break;
@@ -223,7 +234,9 @@ where
 
                 let deck_size = queue.len().max(1);
 
-                let insert_at: usize = if got_right {
+                // "depth" = how many cards should be drawn before this one reappears.
+                // small depth -> reappears soon, large depth -> reappears later.
+                let depth: usize = if got_right {
                     // low mastery -> reappears in maybe 1/10th of the deck
                     // high mastery -> reappears near a full deck length out (or beyond, if you want)
                     let frac = (*mastery / 100.0).mul_add(1.4, 0.1); // ranges ~0.1 to ~1.5
@@ -232,7 +245,9 @@ where
                     (deck_size / 15).max(5)
                 };
 
-                let insert_at = insert_at.min(queue.len());
+                // queue.pop_back() draws from the back, so a shallow depth must land
+                // near the back (high index) to actually reappear soon.
+                let insert_at = queue.len().saturating_sub(depth);
 
                 clear_console()?;
                 println!(
