@@ -124,6 +124,123 @@ where
         })
     }
 
+    pub fn show_menu(&mut self) -> Result<(), VocabError> {
+        loop {
+            clear_console()?;
+
+            println!("Main Menu\n");
+            println!(
+                "{}",
+                [
+                    ("s", "Definition Search"),
+                    ("t", "Translate Drill"),
+                    ("r", "Translate Drill Reverse")
+                ]
+                .iter()
+                .map(|(target_key, description)| format!("({target_key}) {description}"))
+                .collect::<Vec<_>>()
+                .join("\n")
+            );
+
+            let prompt = input()?;
+
+            match prompt.as_str() {
+                "q" => {
+                    break;
+                }
+                "s" => self.definition_search()?,
+                "t" => {
+                    self.run_drill(true)?;
+                }
+                "r" => {
+                    self.run_drill(false)?;
+                }
+                _ => {}
+            }
+        }
+        Ok(())
+    }
+
+    pub fn definition_search(&self) -> Result<(), VocabError> {
+        let mut searching_native = true;
+
+        loop {
+            clear_console()?;
+            println!("Search Definitions");
+            println!(
+                "(t) toggle {}\n",
+                if searching_native {
+                    "Native->Foreign"
+                } else {
+                    "Foreign->Native"
+                }
+            );
+
+            print!("search: ");
+            stdout().flush()?;
+
+            let search = input()?;
+            println!();
+
+            if search == "q" {
+                break;
+            }
+
+            if search == "t" {
+                searching_native = !searching_native;
+                continue;
+            }
+
+            if searching_native {
+                let native_search = search
+                    .parse::<N>()
+                    .map_err(|_| VocabError::ParseError(search))?;
+
+                let words_that_match = self.find_all_words_that_match(&native_search);
+
+                println!(
+                    "{}",
+                    if words_that_match.is_empty() {
+                        "No Matches Found.".to_string()
+                    } else {
+                        words_that_match
+                            .iter()
+                            .map(|w| w.with_definitions(0))
+                            .collect::<Vec<_>>()
+                            .join("\n")
+                    }
+                );
+            } else {
+                let foreign_search = search
+                    .parse::<F>()
+                    .map_err(|_| VocabError::ParseError(search))?;
+
+                let words_that_match: Vec<&Q> = self
+                    .data
+                    .iter()
+                    .filter_map(|(w, _)| w.matches_word(&foreign_search).then_some(w))
+                    .collect();
+
+                println!(
+                    "{}",
+                    if words_that_match.is_empty() {
+                        "No Matches Found.".to_string()
+                    } else {
+                        words_that_match
+                            .iter()
+                            .map(|w| w.with_definitions(0))
+                            .collect::<Vec<_>>()
+                            .join("\n")
+                    }
+                );
+            }
+
+            input()?;
+        }
+
+        Ok(())
+    }
+
     fn find_all_words_that_match(&self, guess: &N) -> Vec<&Q> {
         self.data
             .iter()

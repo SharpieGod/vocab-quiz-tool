@@ -8,7 +8,7 @@ use std::{
 };
 
 use serde::{Deserialize, Serialize};
-use strsim::normalized_levenshtein;
+use strsim::{normalized_damerau_levenshtein, normalized_levenshtein};
 use vocab_quiz_tool::{Language, Quizzable};
 
 use super::english::English;
@@ -62,7 +62,9 @@ impl Quizzable<English, Chinese> for ChineseWord {
             .map(|(a, b)| {
                 let mut s = 0.0;
 
-                if a.text == b.text {
+                if a.text == b.text
+                    || normalized_damerau_levenshtein(&a.text, &b.text) >= 0.75
+                {
                     s += 0.7;
                 }
 
