@@ -82,7 +82,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -1598,7 +1598,7 @@
         }
       ]
     },
-    47.745544
+    55.13282
   ],
   [
     {
@@ -1896,7 +1896,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -2769,7 +2769,7 @@
         }
       ]
     },
-    10.25
+    15.7625
   ],
   [
     {
@@ -2957,7 +2957,7 @@
         }
       ]
     },
-    34.009563
+    40.71004
   ],
   [
     {
@@ -3010,7 +3010,7 @@
         }
       ]
     },
-    5.0
+    10.25
   ],
   [
     {
@@ -3343,7 +3343,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -3510,7 +3510,7 @@
         }
       ]
     },
-    55.13282
+    62.88946
   ],
   [
     {
@@ -4137,7 +4137,7 @@
         }
       ]
     },
-    47.745544
+    55.13282
   ],
   [
     {
@@ -4333,7 +4333,7 @@
         }
       ]
     },
-    34.009563
+    40.71004
   ],
   [
     {
@@ -4488,7 +4488,8 @@
     {
       "hanzi": "分",
       "definitions": [
-        "minute"
+        "minute",
+        "cent, one hundredth of a yuan (currency)"
       ],
       "pinyin": [
         {
@@ -4565,7 +4566,7 @@
         }
       ]
     },
-    14.86534
+    20.608608
   ],
   [
     {
@@ -4641,7 +4642,7 @@
         }
       ]
     },
-    20.608608
+    26.639038
   ],
   [
     {
@@ -4992,7 +4993,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -5227,7 +5228,7 @@
         }
       ]
     },
-    34.009563
+    40.71004
   ],
   [
     {
@@ -5564,7 +5565,7 @@
         }
       ]
     },
-    27.628157
+    34.009563
   ],
   [
     {
@@ -5617,7 +5618,7 @@
         }
       ]
     },
-    21.550625
+    27.628157
   ],
   [
     {
@@ -5632,7 +5633,7 @@
         }
       ]
     },
-    20.608608
+    26.639038
   ],
   [
     {
@@ -5830,5 +5831,959 @@
       ]
     },
     34.009563
+  ],
+  [
+    {
+      "hanzi": "块",
+      "definitions": [
+        "measure word for the yuan, the primary unit of Chinese currency (colloquial)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "kuai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "毛",
+      "definitions": [
+        "one tenth of a yuan (currency unit, colloquial); equivalent to jiao"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "mao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "种",
+      "definitions": [
+        "kind, type",
+        "measure word for kinds/types"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "zhong"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "西瓜",
+      "definitions": [
+        "watermelon"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xi"
+        },
+        {
+          "tone": "High",
+          "text": "gua"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "香蕉",
+      "definitions": [
+        "banana"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "xiang"
+        },
+        {
+          "tone": "High",
+          "text": "jiao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "草莓",
+      "definitions": [
+        "strawberry"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "cao"
+        },
+        {
+          "tone": "Rising",
+          "text": "mei"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "橙子",
+      "definitions": [
+        "orange (fruit)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "cheng"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "杯子",
+      "definitions": [
+        "cup"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "bei"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "斤",
+      "definitions": [
+        "jin, Chinese unit of weight equal to 500 grams / half-kilogram; measure word"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jin"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "次",
+      "definitions": [
+        "measure word for times/occurrences"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ci"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "一次",
+      "definitions": [
+        "once, one time"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "yi",
+          "sandhi_from": "High"
+        },
+        {
+          "tone": "Falling",
+          "text": "ci"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "角",
+      "definitions": [
+        "jiao, currency unit equal to 1/10 yuan (formal/written); same as mao"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "jiao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "这里",
+      "definitions": [
+        "here"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zhe"
+        },
+        {
+          "tone": "Dropping",
+          "text": "li"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "这儿",
+      "definitions": [
+        "here (casual, erhua)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "zhe"
+        },
+        {
+          "tone": "Neutral",
+          "text": "r"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "那里",
+      "definitions": [
+        "there"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "na"
+        },
+        {
+          "tone": "Dropping",
+          "text": "li"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "那儿",
+      "definitions": [
+        "there (casual, erhua)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "na"
+        },
+        {
+          "tone": "Neutral",
+          "text": "r"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "付",
+      "definitions": [
+        "to pay"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "fu"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "应该",
+      "definitions": [
+        "should, ought to"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ying"
+        },
+        {
+          "tone": "High",
+          "text": "gai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "支付宝",
+      "definitions": [
+        "Alipay"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhi"
+        },
+        {
+          "tone": "Falling",
+          "text": "fu"
+        },
+        {
+          "tone": "Dropping",
+          "text": "bao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "支付",
+      "definitions": [
+        "to pay (formal)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "zhi"
+        },
+        {
+          "tone": "Falling",
+          "text": "fu"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "宝",
+      "definitions": [
+        "treasure"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "bao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "宝宝",
+      "definitions": [
+        "baby"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "bao"
+        },
+        {
+          "tone": "Neutral",
+          "text": "bao",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "微信",
+      "definitions": [
+        "WeChat"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "wei"
+        },
+        {
+          "tone": "Falling",
+          "text": "xin"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "微",
+      "definitions": [
+        "micro, mini"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "wei"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "信",
+      "definitions": [
+        "letter, message, mail"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "xin"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "扫",
+      "definitions": [
+        "to sweep",
+        "to scan"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "sao"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "水果店",
+      "definitions": [
+        "fruit shop"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "shui",
+          "sandhi_from": "Dropping"
+        },
+        {
+          "tone": "Dropping",
+          "text": "guo"
+        },
+        {
+          "tone": "Falling",
+          "text": "dian"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "好的",
+      "definitions": [
+        "okay"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "hao"
+        },
+        {
+          "tone": "Neutral",
+          "text": "de"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "年龄",
+      "definitions": [
+        "age"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nian"
+        },
+        {
+          "tone": "Rising",
+          "text": "ling"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "爸妈",
+      "definitions": [
+        "parents"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ba"
+        },
+        {
+          "tone": "High",
+          "text": "ma"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "女儿",
+      "definitions": [
+        "daughter"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nü"
+        },
+        {
+          "tone": "Rising",
+          "text": "er"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "爱人",
+      "definitions": [
+        "spouse, partner"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ai"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "爱",
+      "definitions": [
+        "love"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "ai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "弟弟",
+      "definitions": [
+        "younger brother"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "di"
+        },
+        {
+          "tone": "Neutral",
+          "text": "di",
+          "sandhi_from": "Falling"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "爷爷",
+      "definitions": [
+        "grandfather"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "ye"
+        },
+        {
+          "tone": "Neutral",
+          "text": "ye",
+          "sandhi_from": "Rising"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "奶奶",
+      "definitions": [
+        "grandmother"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nai"
+        },
+        {
+          "tone": "Neutral",
+          "text": "nai",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "女",
+      "definitions": [
+        "female"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nü"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "男",
+      "definitions": [
+        "male"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nan"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "男人",
+      "definitions": [
+        "man"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nan"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "女人",
+      "definitions": [
+        "woman"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nü"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "孩子",
+      "definitions": [
+        "child, kid"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "hai"
+        },
+        {
+          "tone": "Neutral",
+          "text": "zi",
+          "sandhi_from": "Dropping"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "女孩",
+      "definitions": [
+        "girl"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "nü"
+        },
+        {
+          "tone": "Rising",
+          "text": "hai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "男孩",
+      "definitions": [
+        "boy"
+      ],
+      "pinyin": [
+        {
+          "tone": "Rising",
+          "text": "nan"
+        },
+        {
+          "tone": "Rising",
+          "text": "hai"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "家人",
+      "definitions": [
+        "family member(s)"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "jia"
+        },
+        {
+          "tone": "Rising",
+          "text": "ren"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "树",
+      "definitions": [
+        "tree"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "shu"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "退休",
+      "definitions": [
+        "to retire"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "tui"
+        },
+        {
+          "tone": "High",
+          "text": "xiu"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "电话",
+      "definitions": [
+        "telephone (fixed line)"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        },
+        {
+          "tone": "Falling",
+          "text": "hua"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "手机",
+      "definitions": [
+        "mobile phone"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "shou"
+        },
+        {
+          "tone": "High",
+          "text": "ji"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "手",
+      "definitions": [
+        "hand"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "shou"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "机",
+      "definitions": [
+        "machine"
+      ],
+      "pinyin": [
+        {
+          "tone": "High",
+          "text": "ji"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "电",
+      "definitions": [
+        "electricity"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "电费",
+      "definitions": [
+        "electricity fee, electricity bill"
+      ],
+      "pinyin": [
+        {
+          "tone": "Falling",
+          "text": "dian"
+        },
+        {
+          "tone": "Falling",
+          "text": "fei"
+        }
+      ]
+    },
+    0.0
+  ],
+  [
+    {
+      "hanzi": "水费",
+      "definitions": [
+        "water fee, water bill"
+      ],
+      "pinyin": [
+        {
+          "tone": "Dropping",
+          "text": "shui"
+        },
+        {
+          "tone": "Falling",
+          "text": "fei"
+        }
+      ]
+    },
+    0.0
   ]
 ]

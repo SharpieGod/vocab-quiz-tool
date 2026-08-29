@@ -1,10 +1,11 @@
+#[cfg(target_os = "windows")]
+use std::sync::atomic::{AtomicU64, Ordering};
 use std::{
     fmt::Display,
     fs,
     path::{Path, PathBuf},
     process::{Command, Stdio},
     str::FromStr,
-    sync::atomic::{AtomicU64, Ordering},
 };
 
 use serde::{Deserialize, Serialize};
@@ -62,9 +63,7 @@ impl Quizzable<English, Chinese> for ChineseWord {
             .map(|(a, b)| {
                 let mut s = 0.0;
 
-                if a.text == b.text
-                    || normalized_damerau_levenshtein(&a.text, &b.text) >= 0.75
-                {
+                if a.text == b.text || normalized_damerau_levenshtein(&a.text, &b.text) >= 0.75 {
                     s += 0.7;
                 }
 
@@ -84,14 +83,14 @@ impl Quizzable<English, Chinese> for ChineseWord {
     }
 }
 
-/// Speaks `text` in the background: a natural neural voice if reachable, otherwise the
-/// local Windows SAPI voice as an offline fallback.
+/// Speaks `text` in the background: a natural neural voice if reachable, otherwise a
+/// local offline voice as a fallback.
 fn play_chinese_audio(text: &str) {
     let text = text.to_string();
 
     let _ = std::thread::Builder::new().spawn(move || {
         if speak_edge_neural(&text).is_none() {
-            speak_chinese_sapi(&text);
+            speak_chinese_offline(&text);
         }
     });
 }
@@ -170,11 +169,9 @@ fn play_mp3_bytes(bytes: &[u8]) -> Option<()> {
     Some(())
 }
 
-/// Speaks `text` using a zh-CN voice via Windows Speech (SAPI), in the background.
-///
-/// Shells out to PowerShell rather than talking to SAPI directly, since the OS-installed
-/// desktop voices (e.g. "Microsoft Huihui Desktop") are exposed there without extra deps.
-fn speak_chinese_sapi(text: &str) {
+/// Speaks `text` using a local zh-CN voice, in the background, as an offline fallback.
+#[cfg(target_os = "windows")]
+fn speak_chinese_offline(text: &str) {
     static SCRIPT_COUNTER: AtomicU64 = AtomicU64::new(0);
 
     let escaped = text.replace('\'', "''");
@@ -214,6 +211,20 @@ fn speak_chinese_sapi(text: &str) {
         .stdout(Stdio::null())
         .stderr(Stdio::null())
         .spawn();
+}
+
+/// Speaks `text` using a local zh-CN voice via `speech-dispatcher`'s `spd-say`, as an
+/// offline fallback. Blocks until playback finishes (`spd-say` returns immediately
+/// otherwise, and the caller already runs this on a background thread).
+#[cfg(not(target_os = "windows"))]
+fn speak_chinese_offline(text: &str) {
+    let _ = Command::new("spd-say")
+        .args(["-l", "zh", "-w"])
+        .arg(text)
+        .stdin(Stdio::null())
+        .stdout(Stdio::null())
+        .stderr(Stdio::null())
+        .status();
 }
 
 #[derive(Clone, PartialEq, Eq, Serialize, Deserialize, Debug)]
