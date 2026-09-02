@@ -9,6 +9,7 @@ use std::{
 
 use colorize::AnsiColor;
 use rand::seq::{IndexedRandom, SliceRandom};
+use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 use serde::{Deserialize, Serialize};
 use unicode_width::UnicodeWidthStr;
 
@@ -72,6 +73,9 @@ where
     }
     /// Plays a pronunciation of this word, if supported. Default is a no-op.
     fn play_audio(&self) {}
+    /// Pre-fetches and caches this word's pronunciation audio, without playing it.
+    /// Default is a no-op.
+    fn cache_audio(&self) {}
     fn with_definitions(&self, extra_indent: usize) -> String {
         let joined = self.to_string();
         let indent = " ".repeat(joined.width().saturating_add(extra_indent));
@@ -124,7 +128,10 @@ where
         })
     }
 
-    pub fn show_menu(&mut self) -> Result<(), VocabError> {
+    pub fn show_menu(&mut self) -> Result<(), VocabError>
+    where
+        Q: Sync,
+    {
         loop {
             clear_console()?;
 
@@ -134,7 +141,8 @@ where
                 [
                     ("s", "Definition Search"),
                     ("t", "Translate Drill"),
-                    ("r", "Translate Drill Reverse")
+                    ("r", "Translate Drill Reverse"),
+                    ("d", "Download All Audio")
                 ]
                 .iter()
                 .map(|(target_key, description)| format!("({target_key}) {description}"))
@@ -155,10 +163,35 @@ where
                 "r" => {
                     self.run_drill(false)?;
                 }
+                "d" => {
+                    self.cache_all_audio();
+                    println!("Done. Press enter to continue.");
+                    input()?;
+                }
                 _ => {}
             }
         }
         Ok(())
+    }
+
+    /// Fetches and caches pronunciation audio for every word in the dictionary, in
+    /// parallel, so drills never have to hit the network mid-quiz.
+    pub fn cache_all_audio(&self)
+    where
+        Q: Sync,
+    {
+        let total = self.data.len();
+        let done = std::sync::atomic::AtomicUsize::new(0);
+
+        self.data.par_iter().for_each(|(w, _)| {
+            w.cache_audio();
+
+            let n = done.fetch_add(1, std::sync::atomic::Ordering::Relaxed) + 1;
+            print!("\rCached {n}/{total}");
+            let _ = stdout().flush();
+        });
+
+        println!();
     }
 
     pub fn definition_search(&self) -> Result<(), VocabError> {

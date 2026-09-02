@@ -81,6 +81,10 @@ impl Quizzable<English, Chinese> for ChineseWord {
     fn play_audio(&self) {
         play_chinese_audio(&self.hanzi);
     }
+
+    fn cache_audio(&self) {
+        let _ = get_cached_audio(&self.hanzi);
+    }
 }
 
 /// Speaks `text` in the background: a natural neural voice if reachable, otherwise a
@@ -114,26 +118,33 @@ fn cached_audio_path(hanzi: &str) -> PathBuf {
 }
 
 /// Tries to speak `text` with a neural Chinese voice via the (free, unofficial) Microsoft
-/// Edge "Read Aloud" service, using a local mp3 cache to skip the network on repeat plays.
-/// Returns `None` on any failure (e.g. no network and nothing cached yet) so the caller
-/// can fall back to a local voice; blocks the calling thread until playback finishes.
+/// Edge "Read Aloud" service. Returns `None` on any failure (e.g. no network and nothing
+/// cached yet) so the caller can fall back to a local voice; blocks the calling thread
+/// until playback finishes.
 fn speak_edge_neural(text: &str) -> Option<()> {
-    let path = cached_audio_path(text);
-
-    let audio_bytes = if let Ok(bytes) = fs::read(&path) {
-        bytes
-    } else {
-        let bytes = fetch_neural_audio(text)?;
-
-        if let Some(parent) = path.parent() {
-            let _ = fs::create_dir_all(parent);
-        }
-        let _ = fs::write(&path, &bytes);
-
-        bytes
-    };
+    let audio_bytes = get_cached_audio(text)?;
 
     play_mp3_bytes(&audio_bytes)
+}
+
+/// Returns the mp3 bytes for `text`, reading from the local cache when present and
+/// otherwise fetching from the neural TTS service and writing the result to the cache
+/// for next time. Returns `None` if nothing is cached and the fetch fails.
+fn get_cached_audio(text: &str) -> Option<Vec<u8>> {
+    let path = cached_audio_path(text);
+
+    if let Ok(bytes) = fs::read(&path) {
+        return Some(bytes);
+    }
+
+    let bytes = fetch_neural_audio(text)?;
+
+    if let Some(parent) = path.parent() {
+        let _ = fs::create_dir_all(parent);
+    }
+    let _ = fs::write(&path, &bytes);
+
+    Some(bytes)
 }
 
 /// Synthesizes `text` via the Edge "Read Aloud" service and returns the raw mp3 bytes.
