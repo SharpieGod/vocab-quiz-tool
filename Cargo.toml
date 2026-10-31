@@ -10,7 +10,7 @@ serde = { version = "1", features = ["derive", "rc"] }
 unicode-width = "0.2.2"
 strsim = "0.11"
 colorize = "0.1.0"
-msedge-tts = { version = "0.4.0", features = ["blocking"] }
+msedge-tts = { version = "0.4.1", features = ["blocking"] }
 rodio = "0.22.2"
 rayon = "1.12.0"
 

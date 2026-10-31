@@ -78,7 +78,7 @@ where
     fn cache_audio(&self) {}
     fn with_definitions(&self, extra_indent: usize) -> String {
         let joined = self.to_string();
-        let indent = " ".repeat(joined.width().saturating_add(extra_indent));
+        let indent = " ".repeat(visible_width(&joined).saturating_add(extra_indent));
 
         self.get_definitions()
             .iter()
@@ -93,6 +93,22 @@ where
             .collect::<Vec<_>>()
             .join("\n")
     }
+}
+
+/// Display width of `s`, ignoring ANSI colour escape sequences.
+fn visible_width(s: &str) -> usize {
+    let mut plain = String::with_capacity(s.len());
+    let mut chars = s.chars();
+
+    while let Some(c) = chars.next() {
+        if c == '\x1b' {
+            chars.by_ref().find(|&c| c == 'm');
+        } else {
+            plain.push(c);
+        }
+    }
+
+    plain.width()
 }
 
 /// Hadles full `Quizable` functionality which Q

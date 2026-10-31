@@ -8,6 +8,7 @@ use std::{
     str::FromStr,
 };
 
+use colorize::AnsiColor;
 use serde::{Deserialize, Serialize};
 use strsim::{normalized_damerau_levenshtein, normalized_levenshtein};
 use vocab_quiz_tool::{Language, Quizzable};
@@ -19,11 +20,38 @@ pub struct ChineseWord {
     hanzi: String,
     definitions: Vec<English>,
     pinyin: Chinese,
+    /// Class hint for words whose pinyin is ambiguous, e.g. "number" for jiu3 (九).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    hint: Option<String>,
+    /// HSK level (1-3); colours the word like a loot tier: green, blue, magenta.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    hsk: Option<u8>,
+}
+
+impl ChineseWord {
+    fn hsk_colour(&self, s: String) -> String {
+        match self.hsk {
+            Some(1) => s.b_green(),
+            Some(2) => s.b_blue(),
+            Some(3) => s.b_magenta(),
+            _ => s,
+        }
+    }
 }
 
 impl Display for ChineseWord {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{} ({})", self.pinyin, self.hanzi)
+        write!(f, "{} {}", self.pinyin, self.hsk_colour(format!("({})", self.hanzi)))?;
+
+        if let Some(hint) = &self.hint {
+            write!(f, " [{hint}]")?;
+        }
+
+        if let Some(level) = self.hsk {
+            write!(f, " {}", self.hsk_colour(format!("HSK{level}")))?;
+        }
+
+        Ok(())
     }
 }
 
@@ -388,5 +416,38 @@ impl Display for ChineseTone {
                 Self::Neutral => "0",
             }
         )
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::ChineseWord;
+
+    #[test]
+    fn hint_is_optional_and_displayed() {
+        let pinyin = r#"[{"tone":"Dropping","text":"jiu"}]"#;
+        let plain: ChineseWord =
+            serde_json::from_str(&format!(r#"{{"hanzi":"九","definitions":["nine"],"pinyin":{pinyin}}}"#)).unwrap();
+        let hinted: ChineseWord = serde_json::from_str(&format!(
+            r#"{{"hanzi":"酒","definitions":["alcohol"],"pinyin":{pinyin},"hint":"beverage"}}"#
+        ))
+        .unwrap();
+
+        assert_eq!(plain.to_string(), "jiu3 (九)");
+        assert_eq!(hinted.to_string(), "jiu3 (酒) [beverage]");
+        assert!(!serde_json::to_string(&plain).unwrap().contains("hint"));
+    }
+
+    #[test]
+    fn hsk_level_is_coloured() {
+        let word: ChineseWord = serde_json::from_str(
+            r#"{"hanzi":"九","definitions":["nine"],"pinyin":[{"tone":"Dropping","text":"jiu"}],"hsk":1}"#,
+        )
+        .unwrap();
+        let shown = word.to_string();
+
+        assert!(shown.starts_with("jiu3 \x1b["));
+        assert!(shown.contains("(九)") && shown.contains("HSK1"));
+        assert!(serde_json::to_string(&word).unwrap().contains(r#""hsk":1"#));
     }
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Converts any new Chinese lesson .docx files to .txt, then opens a Claude
+# Downloads new tutor .docx files from Gmail, converts any new Chinese lesson .docx files to .txt, then opens a Claude
 # session with instructions to extract vocabulary from the not-yet-processed
 # transcripts into dictionaries/chinese.json.
 set -euo pipefail
@@ -11,6 +11,7 @@ else
     PYTHON="python3"
 fi
 
+"$PYTHON" tutor_docs.py
 "$PYTHON" helper.py
 
 PROMPT=$(cat <<'EOF'
@@ -20,12 +21,30 @@ that still need their vocabulary extracted into dictionaries/chinese.json.
 Files already prefixed "DONE_" have already been processed - ignore them
 except as reference for formatting/style.
 
+First, tidy up duplicates in documents/chinese/processed_documents/ and
+documents/chinese/txt/. A duplicate is a file whose lesson content matches
+another file's: e.g. "20260703.txt" next to "DONE_20260703.txt", or a
+copy saved with a Gmail message id prefix like "19f8cce09cfd973d_20260703.docx".
+Compare each pair's contents before deleting anything:
+   - If they are identical, delete the extra copy and keep the plain-named
+     one (for txt, keep the "DONE_" version if one exists).
+   - If they differ (two different lessons that happen to share a name),
+     keep both - rename the id-prefixed one to something clear instead,
+     e.g. "20260703_2.txt" / "20260703_2.docx".
+Never delete the only copy of a lesson. Say what you removed or renamed.
+
 For each not-done file:
 
 1. Read it and identify the new vocabulary headwords being taught (lines
    like "word - definition" or "word(-definition)"). Skip pure example
    sentences that only combine words already in the dictionary, and skip
    homework/instruction text - those aren't vocabulary.
+
+   Only keep words at HSK 1-3 level (the core everyday vocabulary of the
+   HSK 1, 2 and 3 word lists). Skip anything more advanced, rare, or
+   specialised that only appears as a one-off example for practice (e.g.
+   brand names, niche foods, place names beyond countries/major cities,
+   long set phrases). When unsure, leave it out.
 
 2. For each headword, work out:
    - The correct hanzi. The files only contain pinyin with numeric tone
@@ -52,9 +71,26 @@ For each not-done file:
            "sandhi_from": "<ToneName>"  // optional, only when tone sandhi applies
          },
          ...
-       ]
+       ],
+       "hint": "<short class hint>",  // optional, see below
+       "hsk": <1, 2 or 3>            // optional, see below
      }
    One entry in "pinyin" per syllable/character, in order.
+
+   Class hints: the quiz shows the pinyin and asks for the meaning, so words
+   that share the same pinyin (same syllables AND tones) are ambiguous.
+   Give every such word a "hint" - one or two lowercase words naming its
+   category, shown as e.g. "jiu3 (九) [number]" vs "jiu3 (酒) [beverage]".
+   Good hints: number, beverage, food, verb, time, place, person, measure
+   word, family, body, weather, colour. When you add a word whose pinyin
+   matches an existing entry that has no hint, add a hint to that entry too.
+   Words with unique pinyin get no "hint" field at all.
+
+   HSK level: set "hsk" to the word's level on the HSK 3.0 (2021) lists (1, 2 or
+   3). A compound not listed on its own gets the level where its parts are
+   taught (e.g. 星期一 -> 1, 火车站 -> 2). Words you keep that aren't on the
+   HSK 3.0 1-3 lists at all (foreign countries, 上海) get no "hsk" field. The
+   quiz colours each word by this level.
 
    Tone name mapping (numeric tone -> ToneName):
      1 -> "High"      (e.g. ma1 -> High)
@@ -67,13 +103,13 @@ For each not-done file:
    "nu:" or "v", e.g. "nu:3" -> Dropping tone, text "nü").
 
    New words you add should get mastery 0.0 (the baseline for unpracticed
-   words - look at existing 0.0 entries for reference).
+   words).
 
 5. Tone sandhi rules - set "sandhi_from" on the syllable whose *written*
    tone differs from its dictionary/citation tone, with sandhi_from set to
-   that original citation tone. Look at existing entries in
-   dictionaries/chinese.json for real examples of each pattern before
-   applying it:
+   that original citation tone. If dictionaries/chinese.json already has
+   entries, look at them for real examples of each pattern before applying
+   it:
    - Third-tone sandhi: a Dropping (3rd tone) syllable immediately followed
      by another Dropping syllable is written as Rising with
      sandhi_from: "Dropping" (e.g. 你好, 水果, 哪里, 很好, 老板).
